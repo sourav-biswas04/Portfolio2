@@ -15,7 +15,7 @@ gsap.from("nav ul li", {
 
 // Hero text typing effect simulation with GSAP timeline
 const typedText = document.querySelector(".typedText");
-const words = ["Developer", "Designer", "Freelancer"];
+const words = ["from Kolkata", "Developer"];
 let currentWord = 0;
 let charIndex = 0;
 
