@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="nav-name">Sourav.</p>
+
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <div class="hero-text">
+            <p>Sourav Biswas</p>
+            <h1>Hi,I'm <span class="typedText"></span></h1>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img
+                src="/image/IMG-20241128-WA0006-removebg-preview (1).png"
+                alt="avatar"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--About-->
+    <div id="about">
+        <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                  <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and JavaScript and other cutting edge frameworks and libraries, which allows me to implement interactive features.
+                    </p>
+                  </div>
+                </div>
+                  <div class="skliis-box">
+                   <div class="skills-header">
+                     <h3>Frontend</h3>
+                   </div>
+                  <div class="skills-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>React jS</span>
+                    
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Backend</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span>JavaScript</span>
+                    <span>Node JS</span>
+                    <span>Express JS</span>
+                    
+                  </div>
+                </div>
+                <div class="skills-box">
+                  <div class="skills-header">
+                    <h3>Database</h3>
+                  </div>
+                  <div class="skills-list">
+                    <span>MongoDB</span>
+                    <span>PostgreSQL</span>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!--Projects-->
+    <div id="projects">
+        <div class="container">
+            <div class="top-header">
+                <h1>Projects</h1>
+              </div>
+          <div class="work-list">
+            <div class="work">
+              <img src="/image/download (1).png" alt="">
+              <div class="layer">
+                <h3>Spotify app</h3>
+                <p>It's a clone app</p>
+                <a href="https://spotify-clone-ten-snowy.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/image/3d  animation.png" alt="">
+              <div class="layer">
+                <h3>3D Animation</h3>
+                <p>Moving 3d Animation</p>
+                <a href="https://3-d-animation-swart.vercel.app/
+                "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/image/Screenshot 2025-05-21 at 12.01.47 PM.png" alt="">
+              <div class="layer">
+                <h3>Animated Website</h3>
+                <p>Landing page of Animated website</p>
+                <a href="https://animated-website-azure-three.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/image/Forever.png" alt="">
+              <div class="layer">
+                <h3>Ecommerce Website</h3>
+                <p>It's a show shop Website</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact-->
+      <div id="contact">
+        <div class="container">
+            <div class="top-header">
+                <h1>Contact Me</h1>
+              </div>
+            <div class="row">
+                <div class="contact-left">
+                     <p><i class="fa-solid fa-paper-plane"></i>sb303180@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>91+ 9382625250</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <button style="margin: 50px;"><a href="image/Sourav-Biswas-Resume-20241128.pdf" class="btn btn2">Download CV</a></button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sourav Biswas <i class="fa-solid fa-heart"></i>All right reserved</p>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="style.js"></script>
+  </body>
+</html>
